@@ -1,0 +1,101 @@
+
+/* 
+**BIG NOTE: 
+
+we use # for "id"
+we use . for "class"
+
+*/
+body{
+    background-color: rgb(72, 72, 69);
+}
+.Main-Heading {
+    border-radius: 20px; /* make the big pruple block a bit rounded */
+    background-color: rgb(129, 31, 221);
+    color: rgb(55, 37, 73);
+    text-align: center;
+}
+
+/* 
+we use input[type="text] to indicate all text boxes 
+
+for individual text input boxes use: 
+
+#<id_name>{
+    ...
+}
+
+e.g
+#insert-text{
+    ...
+}
+
+#insert-text::placeholder{
+    ...
+}
+
+*/
+
+input[type="text"]{ 
+    border-radius: 10px;
+    background-color: rgb(102, 25, 173);
+}
+
+input[type="text"]::placeholder{ /* we declare ::placeholder because we want to adjust the text colour */
+    color: rgb(196, 196, 193);
+  }
+
+.insert-box{
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(69, 56, 129);
+    color: rgb(254, 254, 254); /* text colour */
+    /* Additional styles */
+  }
+
+.column-insert-button{ /* create some spacing between button and text input */
+    margin-top: 2px;
+}
+
+.bmistuff{ /* this is 50px from the div above it */
+    margin-top: 50px;
+    text-align: center; /* center AMH stuff */
+}
+
+.bmiweight{ /* this is 5px from the div above it */
+    margin-top: 5px;
+}
+
+.bmiheight{ /* this is 5px from the div above it */
+    margin-top: 5px;
+}
+
+.insert-bmistuff{
+    margin-top: 5px;
+}
+
+.calc{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.outputtext{
+    color: rgb(191, 168, 249);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.output{
+    background-color: rgb(37, 41, 48); /* box inner colour */
+    display: block; /* give the span element a box */
+    width: 335px; /* adjust the width of the box */
+    margin-right: auto; /* margin left and right to auto so its always centred with respect to the window size*/
+    margin-left: auto;
+    margin-top: 5px; /* give it some spacing from the "Your Bmi is" */
+    border-radius: 25px; /* give it some roundness */
+    border: 3px solid rgb(39, 21, 80); /* make a border around the output and give it a colour*/
+    /* Additional styles */
+  }

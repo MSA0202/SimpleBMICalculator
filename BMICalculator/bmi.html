@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <link rel = "stylesheet" href="bmistyle.css">
+    </head>
+
+    <body>
+
+        <h1 class = "Main-Heading">BMI Calculator</h1>
+        
+        <div class="insert-box">
+
+            <input type="text" id="insert-text" placeholder="Insert Your Name"> <!-- creates the insert box -->
+
+            <div class = "column-insert-button"> <!-- putting the button in another div makes it appear as a column -->
+                <button class="insert-button">Insert</button> <!-- insert button next to it  -->
+            </div>
+
+        </div>
+
+        <div class="bmistuff">
+            <div class="bmiage">
+                <input type="text" id="insert-age" placeholder="Insert Your Age"> <!-- creates the insert box -->   
+            </div>
+    
+            <div class="bmiweight">
+                <input type="text" id="insert-weight" placeholder="Insert Your Weight in Kg"> <!-- creates the insert box -->
+            </div>
+    
+            <div class="bmiheight">
+                <input type="text" id="insert-height" placeholder="Insert Your Height in m"> <!-- creates the insert box -->
+            </div>
+
+            <div class="insert-bmistuff">
+                <button class = "bmi-button">Insert AWH</button> <!-- insert button next to it  -->
+            </div>
+        </div>
+
+        <div class="calc">
+            <button class = "calculate">Calculate BMI</button> <!-- insert button next to it  -->
+        </div>
+
+
+        <div class="outputtext">
+            Your BMI is: 
+            <div class="output">
+              <span class="output-text">Output</span>
+            </div>
+        </div>
+        
+        <script src="bmi.js"></script>
+    </body>
+</html>
