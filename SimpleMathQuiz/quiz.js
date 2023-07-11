@@ -91,7 +91,7 @@ let score = 0;
             }
 
             else{
-                insertbox.value = 'Please enter an answer.';//Clear input box
+                insertbox.value = 'Please enter a value';//Clear input box
             }
     });
 
