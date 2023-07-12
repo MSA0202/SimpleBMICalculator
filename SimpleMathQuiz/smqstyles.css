@@ -1,6 +1,9 @@
 
 body{
-    background-image: url('images/backgroundmaths.jpg')
+    background-image: url('images/backgroundmaths.jpg');
+    background-repeat: no-repeat; /* avoid the background image from repeating itself - screen too large*/
+    background-attachment: fixed; /* to make sure the entire element is always covered - fit screen size always*/
+    background-size: cover; /* want the background image to cover the entire element */
 }
 
 .welcome {
